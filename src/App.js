@@ -1,9 +1,15 @@
 import React from 'react'
+import Pagination from './components/Pagination';
+import Stories from './components/Stories';
 
 const App = () => {
   return (
-    <div>Hello Jarviz</div>
+    <>
+      <h1>Hello Jarviz</h1>
+      <Pagination />
+      <Stories />
+    </>
   )
 }
 
-export default App
+export default App;
